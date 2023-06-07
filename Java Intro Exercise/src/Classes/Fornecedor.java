@@ -46,6 +46,6 @@ public class Fornecedor
     @Override
     public String toString()
     {
-        return String.format("CNPJ: %s | Telefone: %s | Nome: %s",CNPJ, telefone, nome);
+        return String.format("CNPJ: %s | Telefone: %s | Nome: %s", getCNPJ(), getTelefone(), getNome());
     }
 }

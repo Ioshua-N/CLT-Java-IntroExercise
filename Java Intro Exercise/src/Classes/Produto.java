@@ -64,6 +64,6 @@ public class Produto
     @Override
     public String toString()
     {
-        return String.format("Codigo: %i | Nome: %s | Valor: %f | %s", codigo, nome, valor, fornecedor.toString());
+        return String.format("Codigo: %d | Nome: %s | Valor: %f | %s", getCodigo(), getNome(), getValor(), getFornecedor().toString());
     }
 }

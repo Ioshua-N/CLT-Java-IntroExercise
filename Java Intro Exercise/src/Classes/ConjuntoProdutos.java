@@ -82,7 +82,7 @@ public class ConjuntoProdutos
         {
             for(int i = 0; i < produtos.size(); i++)
             {
-                produtos.get(i).toString();
+                System.out.println(produtos.get(i).toString());
             }
         }
     }
